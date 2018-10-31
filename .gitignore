@@ -1,3 +1,8 @@
 .idea/*
 .idea/vcs.xml
 .ipynb_*
+*.zip
+*.txt
+*pycache*
+*.bin
+*.gz
