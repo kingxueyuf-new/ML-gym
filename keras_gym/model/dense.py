@@ -22,17 +22,5 @@ def build_model():
     return model
 
 
-def train(x_train, y_train):
-    model.fit(x_train, y_train, epochs=5, batch_size=32)
-
-
-def evaluate(x_eval, y_eval):
-    loss_and_metrics = model.evaluate(x_eval, y_eval, batch_size=128)
-
-
-def predict(x_test):
-    classes = model.predict(x_test, batch_size=128)
-
-
 if __name__ == "__main__":
     model = build_model()
